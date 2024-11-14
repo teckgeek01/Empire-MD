@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "empire@5.2.3",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -7,7 +7,7 @@
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -32,7 +32,7 @@
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️,Mishael"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -95,12 +95,12 @@
     "REJECT_CALL": {
       "description": "auto reject call, if set as true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
@@ -115,7 +115,7 @@
     "PERSONAL_MESSAGE": {
       "description": "Send a Welcome message on personal chat",
       "required": false,
-      "value": "null"
+      "value": "Hello, I'm coach Mishael. Welcome to my wall"
     },
     "DISABLE_START_MESSAGE": {
       "description": "Disable start Message",
