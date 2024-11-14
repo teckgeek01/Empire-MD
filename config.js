@@ -1,4 +1,4 @@
-const { Sequelize } = require('sequelize')
+2const { Sequelize } = require('sequelize')
 const { existsSync } = require('fs')
 const path = require('path')
 const configPath = path.join(__dirname, './config.env')
@@ -32,8 +32,8 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   BRANCH: 'master',
-  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️,LyFE',
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE,
+  STICKER_PACKNAME: process.env.STICKER_PACKNAME || '❤️, Mishael',
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || 'true',
   LOG_MSG: process.env.LOG_MSG || 'false',
   RMBG_KEY: process.env.RMBG_KEY || 'null',
   BAILEYS_LOG_LVL: process.env.BAILEYS_LOG_LVL || 'silent',
@@ -50,7 +50,7 @@ module.exports = {
   MAX_UPLOAD: process.env.MAX_UPLOAD || 230,
   REJECT_CALL: process.env.REJECT_CALL,
   VPS: toBool(process.env.VPS),
-  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'false').trim(),
+  AUTO_STATUS_VIEW: (process.env.AUTO_STATUS_VIEW || 'true').trim(),
   SEND_READ: process.env.SEND_READ,
   KOYEB: toBool(process.env.KOYEB),
   KOYEB_NAME: (process.env.KOYEB_NAME || '').trim(),
